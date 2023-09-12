@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Recent Opportunities">
+        <div class="slds-m-around_medium">
+          <lightning-dataTable
+             key-field="Id"
+             data ={opportunities}
+             columns={column}
+             hide-checkbox-column="true"
+          ></lightning-dataTable>
+        </div>
+    </lightning-card>
+    
+</template>
